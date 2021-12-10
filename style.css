@@ -1,0 +1,32 @@
+body    {
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+}
+
+section, aside {
+    background-color: lightseagreen;
+    color: white;
+    margin: 10px;
+    border-radius: 5px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+@media (min-width: 768px)   {
+    body    {
+        display: flex;
+        flex-direction: row;
+    }
+    section {
+        width: 70%;
+    }
+    aside   {
+        width: 30%;
+    }
+}
